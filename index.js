@@ -8,6 +8,9 @@ const core = require('@actions/core');
 
 const time = Date.now();
 try {
+
+    console.log(core.getInput('data'))
+
     const script = core.getInput('script');
     const scriptFile = path.join(process.cwd(), script);
 
