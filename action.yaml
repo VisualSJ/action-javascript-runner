@@ -5,6 +5,9 @@ inputs:
     description: 'Scripts that need to be executed'
     required: true
     default: ''
+  data:
+    description: 'test'
+    default: {}
 outputs:
   time:
     description: 'Total time in use'
